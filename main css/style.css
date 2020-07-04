@@ -285,6 +285,20 @@ transform: translateY(-200px);
 .service-item:hover .back-text{
     bottom: 0;
 }
+@media screen and (max-width:576px){
+    .service-item{
+
+    padding: 30px;
+}
+.service-item i{
+    font-size: 30px;
+}
+.back-text{
+    font-size: 20px;
+}
+
+
+}
 
 @media screen and (min-width:772px){
     .services-container{
